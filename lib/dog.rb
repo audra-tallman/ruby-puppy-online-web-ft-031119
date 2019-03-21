@@ -7,9 +7,8 @@ class Dog
   end
   
   def self.all
-    @@all.collect {|dog| dog.name}
+    puts @@all.collect {|dog| dog.name}
   end
-  puts @@all
   
   def self.clear_all
     @@all = []  
