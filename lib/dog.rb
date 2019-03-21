@@ -10,7 +10,6 @@ class Dog
     @@all.collect {|dog| dog.name}
   end
   puts @@all
-end
   
   def self.clear_all
     @@all = []  
